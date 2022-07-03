@@ -1,0 +1,102 @@
+ 
+body,html{
+    background:linear-gradient(blue,violet,blue);
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    align-items: center;
+   }
+   header{
+    background:linear-gradient(black,white,black);
+    text-align: center;
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    border: white solid 2px;
+
+   }
+   label{
+    width: 300px;
+    display: inline-block;
+    color: white;
+    margin: 10px;
+   }
+   .form{
+    position: relative;
+margin: 10px;
+ font-size: 20px;
+ width: 70vw;
+ border: solid 2px black;
+ border-radius:20px ;
+ padding: 5px 5px 5px 5px;
+ background-color: rgba(0, 0, 0, 0.4);
+ margin-left: auto;
+ margin-right: auto;
+ 
+   }
+  input{
+margin: 10px;
+size: 30px;
+ background:transparent;
+ border: none;
+ outline: none;
+ border-bottom: red 2px solid;
+ color:
+white;
+ font-size: 
+ 20px;
+  }
+  input:hover{
+    border: none;
+  }
+  input:active{
+    border: none;
+    text-decoration: none;
+  }
+  hr{
+    color: purple;
+    height: 2px;
+  }
+  table{
+    width: auto;
+    box-sizing: border-box;
+    margin: 10px;
+margin-left: auto;
+margin-right: auto;
+color: white;
+border: 2px solid white;
+}
+table input{
+  text-align: center;
+  border: none;
+}
+.submit{
+  background-color: blue;
+  color: white;
+
+}
+.submit:hover{
+  background-color: aqua;
+}
+::placeholder{
+  color: chartreuse;
+}
+.button{
+  background-color: blue;
+  text-decoration: none;
+  height: 40px;
+  width: 200px;
+  border-radius: 10px;
+  border: white solid 2px;
+  color: white;
+}
+.button:hover{
+  background-color: aqua;
+  color: black;
+  border: 3px solid black;
+}
+   
+   
+   
+ 

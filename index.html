@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="indexcss.css">
+     
+</head>
+<body>
+    <header><h2>STUDENT INFORMATION FORM</h1></header>
+        <div class="form">
+      <form action="redirected.html" method="GET"  id="myform">
+      <label>STUDENT NAME :</label>
+      <input type="text" placeholder="STUDENT NAME HERE" id="studname" size="30px" name="SNAME"><br>
+      <hr color="black">
+      <label>FATHER/GUARDIAN NAME :</label>
+      <input type="text" placeholder="GUARDIAN NAME HERE" id="guarname" size="30px" name="FNAME"><br>
+      <hr color="black">
+      <label>STUDENT CNIC :</label>
+      <input type="text" placeholder="STUDENT CNIC HERE" id="scnic" size="30px" name="SNIC"><br>
+      <hr color="black">
+      <label>STUDENT ID :</label>
+      <input type="text" placeholder="STUDENT ID HERE" id="studid" size="30px" name="SID"><br>
+      <hr color="black">
+      <label>STUDENT PHONE :</label>
+      <input type="text" placeholder="STUDENT NUMBER HERE" id="studphn" size="30px" name="SNO"><br>
+      <hr color="black">
+      <label>STUDENT LEVEL :</label>
+      <input type="text" placeholder="STUDENT LEVEL HERE" id="studgrade" size="30px" name="SGRADE"><br>
+      <hr color="black">
+       
+      <table border="2px">
+          <tr>
+              <th>NO.</th> <th>SUBJECTS</th> <th>TOTAL MARKS </th> <th>OBTAINED MARKS </th>
+               
+              </tr>
+              <tr>
+       <td >S1 </td>   <td><input type="text" size="15px" id="Sub_1" name="sub1"></td> <td><input type="text" size="7px" id="tmarks_1" onclick="checkPattern(this.id);" name="tmark1"></td> <td><input type="text" size="7px" id="obtmarks_1" pattern="[0-100]"    name="obt1"></td> 
+              </tr>
+              <tr>
+                <td>S2</td>   <td><input type="text" size="15px" id="Sub_2"  name="sub2"></td> <td><input type="text" size="7px" id="tmarks_2"  name="tmark2"></td> <td><input type="text" size="7px"  id="obtmarks_2" name="obt2"></td> 
+                       </tr>
+                       <tr>
+                        <td>S3</td>   <td><input type="text" size="15px" id="Sub_3"  name="sub3"></td> <td><input type="text" size="7px"  id="tmarks_3" name="tmark3"></td> <td><input type="text" size="7px"  id="obtmarks_3" name="obt3"></td> 
+                               </tr>
+                               <tr>
+                                <td>S4</td>   <td><input type="text" size="15px" id="Sub_4"  name="sub4"></td> <td><input type="text" size="7px" id="tmarks_4" name="tmark4"></td> <td><input type="text" size="7px"  id="obtmarks_4" name="obt4"></td> 
+                                       </tr>
+                                       <tr>
+                                        <td>S5</td>   <td><input type="text" size="15px" id="Sub_5"  name="sub5"></td> <td><input type="text" size="7px"  id="tmarks_5" name="tmark5"></td> <td><input type="text" size="7px" id="obtmarks_5"name="obt5"></td> 
+                                               </tr>
+                                                
+            
+                 
+              
+      </table>
+       <input type="button" name="" value="submit" onclick="confirmValidate()" class="button">
+      </form>
+      <script src="indexjs.js"></script>
+</body>
+</html>
